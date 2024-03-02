@@ -1,0 +1,23 @@
+=> git init
+
+=> created a files in git-tuts folder.
+
+	-> code.html
+	-> example.text
+	-> example1.txt
+
+=> I want code.html and example.txt in to staging area from working diractory by using the command.
+
+	-> git add code.html
+	-> git add example.txt
+
+=> Next sending this files from staging area to local Repo by using command.
+
+	-> git commit -m "This is code and example"
+
+=> git push -u remote main (only for first time).  Next time only use git push.
+
+=> I made changes in code.html by adding a heading element. Use this commandes to update the code in github.
+
+	-> git commit -m "Heading added" 
+	-> git push
