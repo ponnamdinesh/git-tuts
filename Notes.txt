@@ -34,7 +34,15 @@
 
 => Creating branches.
 
-	-> create branch -b "copy1" (here -b command indicates to create a new branch).
+	-> git checkout -b "copy1" (here -b command indicates to create a new branch).
 
 => checkout command is used for jumping between branches.
 
+=> To know which branch you are in. Just use this command.
+
+	-> git branch
+
+=> created example3.txt and want to send to github.
+	-> git add example3.txt
+	-> git commit -m "this is example3"
+	-> git push (this shows "The current branch copy1 has no upstream branch")
