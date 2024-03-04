@@ -1,6 +1,6 @@
 => git init
 
-=> created a files in git-tuts folder.
+=> created a files in git-tuts folder. This is working directory.
 
 	-> code.html
 	-> example.text
@@ -21,9 +21,20 @@
 
 => To push the code from local repo and remote repo. use this command.
 	
-	-> git push -u remote main (only for first time).  Next time only use git push.
+	-> git push -u remote master (only for first time).  Next time only use git push.
 
 => I made changes in code.html by adding a heading element. Use this commandes to update the code in github.
 
 	-> git commit -m "Heading added" 
 	-> git push
+
+=> The files which are stagging area will be shown as "changes to be commited"
+
+=> Check git ignore.
+
+=> Creating branches.
+
+	-> create branch -b "copy1" (here -b command indicates to create a new branch).
+
+=> checkout command is used for jumping between branches.
+
