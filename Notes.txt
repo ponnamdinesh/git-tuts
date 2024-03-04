@@ -15,7 +15,13 @@
 
 	-> git commit -m "This is code and example"
 
-=> git push -u remote main (only for first time).  Next time only use git push.
+=> To build the connection between local repo and remote repo. use this command.
+
+	-> git remote add origin url
+
+=> To push the code from local repo and remote repo. use this command.
+	
+	-> git push -u remote main (only for first time).  Next time only use git push.
 
 => I made changes in code.html by adding a heading element. Use this commandes to update the code in github.
 
