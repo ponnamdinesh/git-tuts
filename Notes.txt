@@ -46,3 +46,4 @@
 	-> git add example3.txt
 	-> git commit -m "this is example3"
 	-> git push (this shows "The current branch copy1 has no upstream branch")
+	-> git push --set-upstream origin copy1
